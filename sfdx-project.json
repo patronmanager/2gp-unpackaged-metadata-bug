@@ -2,10 +2,18 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": true
+      "default": true,
+      "package": "2GPUnpackagedBug",
+      "ancestorVersion": "",
+      "versionName": "2GPUnpackagedBug",
+      "versionNumber": "1.0.0.NEXT"
+    },
+    {
+      "path": "unpackaged"
     }
   ],
-  "namespace": "",
+  "namespace": "lexpackagetest",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "50.0"
+  "sourceApiVersion": "50.0",
+  "definitionFile": "config/project-scratch-def.json"
 }
