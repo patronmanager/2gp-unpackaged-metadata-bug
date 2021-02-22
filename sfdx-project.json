@@ -1,19 +1,27 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true,
-      "package": "2GPUnpackagedBug",
-      "ancestorVersion": "",
-      "versionName": "2GPUnpackagedBug",
-      "versionNumber": "1.0.0.NEXT"
-    },
-    {
-      "path": "unpackaged"
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "2GPUnpackagedBug",
+            "ancestorVersion": "",
+            "versionName": "2GPUnpackagedBug",
+            "versionNumber": "2.0.0.NEXT",
+            "unpackagedMetadata": {
+                "path": "unpackaged"
+            }
+        },
+        {
+            "path": "unpackaged"
+        }
+    ],
+    "namespace": "lexpackagetest",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "50.0",
+    "definitionFile": "config/project-scratch-def.json",
+    "packageAliases": {
+        "2GPUnpackagedBug": "0Ho1S000000fxSfSAI",
+        "2GPUnpackagedBug@1.0.0-1": "04t1S000000NG3CQAW",
+        "2GPUnpackagedBug@1.1.0-2": "04t1S000000NG3MQAW"
     }
-  ],
-  "namespace": "lexpackagetest",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "50.0",
-  "definitionFile": "config/project-scratch-def.json"
 }
