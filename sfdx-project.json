@@ -1,6 +1,9 @@
 {
     "packageDirectories": [
         {
+            "path": "unpackaged"
+        },
+        {
             "path": "force-app",
             "default": true,
             "package": "2GPUnpackagedBug",
@@ -10,9 +13,6 @@
             "unpackagedMetadata": {
                 "path": "unpackaged"
             }
-        },
-        {
-            "path": "unpackaged"
         }
     ],
     "namespace": "lexpackagetest",
